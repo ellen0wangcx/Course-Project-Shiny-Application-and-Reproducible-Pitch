@@ -1,0 +1,58 @@
+---
+title: "week2"
+author: "Ellen"
+date: "2019/2/1"
+output:
+  ioslides_presentation: default
+  beamer_presentation: default
+  slidy_presentation: default
+---
+
+```{r, echo=FALSE}
+library(leaflet)
+my_map <- leaflet() %>%
+  addTiles()
+my_map = leaflet()
+my_map = addTiles(my_map)
+my_map
+```
+```{r, echo=FALSE}
+library(leaflet)
+my_map <- leaflet()  %>%
+  addTiles()
+my_map
+```
+```{r, eval=FALSE}
+set.seed(2016-04-25)
+df <- data.frame(lat=runif(20,min = 39.2, max = 39.3),
+                 lng=runif(20, min = -76.6, max = -76.5))
+df %>%
+  leaflet() %>%
+  addTiles() %>%
+  addMarkers() 
+
+```
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
