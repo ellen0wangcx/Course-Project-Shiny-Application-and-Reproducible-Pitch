@@ -1,0 +1,12 @@
+name: Shiny_Application
+title: Shiny_Application
+username:
+account: wangchenxi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 704469
+bundleId: 1866546
+url: https://wangchenxi.shinyapps.io/Shiny_Application/
+when: 1549770420.97533
+asMultiple: FALSE
+asStatic: FALSE
